@@ -1,0 +1,13 @@
+footer{
+    height: 200px;
+}
+.foterLogo{
+    margin-top: 10%;
+    height: 100px;
+}
+.Milions{
+    font-weight: 600;
+}
+.meno-link a{
+    color: black;
+}

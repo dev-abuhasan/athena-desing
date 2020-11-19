@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.card1 img{
+    width: 35%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.card1{
+    text-align: center;
+    border-radius: 70px 0px 70px 0px;
+    border: none;
+    transition: .5s;
+    background-color: #FAFFFD;
+}
+.card1:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 20px #cbf6e4;
+    background-color: #fff;
+}
+.card1 img:nth-child(1){
+    width: 25%;
+}
+.maine-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.card-body{
+    padding: 30px;
+}
+.card-text{
+    color: gray;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,8 @@
+.nav-btn{
+    width: 130px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 20px 0px 20px 0px;
+    border: none;
+    background: linear-gradient(45deg, #1BD6BB, #2BB7F0);
+}
