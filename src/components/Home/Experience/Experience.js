@@ -37,19 +37,18 @@ const Experience = () => {
     const [experience, setExperience] = useState(experienceData)
 
     return (
-        <section class="container">
+        <section className="container exp-bg-img">
             <h3 className="text-center maine-title">What we do</h3>
-            <p className="text-center card-text mb-5">Our main focus is to make the User Experience very<br/>simple and easy. Simplicity is our Strength.</p>
-            <div class="row row-cols-1 row-cols-md-4">
+            <p className="text-center card-text mb-5">Our main focus is to make the User Experience very<br />simple and easy. Simplicity is our Strength.</p>
+            <div className="row">
                 {
                     experience.map(data =>
-
-                        <div class="col mb-3">
-                            <div class="card h-100 card1">
-                                <img src={data.img} class="card-img-top" style={{width:'30%'}} alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{data.title}</h5>
-                                    <p class="card-text">{data.description}</p>
+                        <div className="col-lg-3 col-md-4 col-sm-6 col-12 mb-2" key={data.id}>
+                            <div className="exp-card">
+                                <img src={data.img} className="card-img-top" style={{ width: '30%' }} alt="..." />
+                                <div className="exp-desc">
+                                    <h5 className="">{data.title}</h5>
+                                    <p className="">{data.description}</p>
                                 </div>
                             </div>
                         </div>

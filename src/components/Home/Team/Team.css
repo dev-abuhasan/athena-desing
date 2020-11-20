@@ -2,6 +2,7 @@
     padding-top: 120px;
 } */
 .Team-title{
+    font-family: 'Playfair Display', serif;
     margin-top: 80px;
     margin-bottom: 55px;
     font-size: 35px;
@@ -35,19 +36,20 @@ hr{
     border: none;
     box-shadow: 3px 3px 10px #e6e9e8;
     transition: .5s;
+    border: 3px solid #ffffff;
 }
 .card:hover{
-    border: 5px solid #62F0D7;
+    border: 3px solid #62F0D7;
 }
 .card-main{
-    border: 5px solid #62F0D7;
+    border: 3px solid #62F0D7;
 }
 .hve-btn{
-    display: none;
+    visibility: hidden;
     transition: .5s;
     margin: auto;
     margin-top: 30px;
 }
 .card:hover .hve-btn{
-    display: block;
+    visibility: visible;
 }

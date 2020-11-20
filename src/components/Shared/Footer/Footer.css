@@ -1,3 +1,6 @@
+#footer a{
+    color: #464646;
+}
 footer{
     height: 200px;
 }
@@ -10,4 +13,14 @@ footer{
 }
 .meno-link a{
     color: black;
+}
+.footer-list-icon li{
+    list-style: none;
+    margin: 0 10px;
+    overflow: hidden;
+    color:#838585;
+}
+.icon{
+    font-size: 36px!important;
+    width: 30px;
 }

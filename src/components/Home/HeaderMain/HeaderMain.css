@@ -4,7 +4,27 @@
     font-family: 'Playfair Display', serif;
     color: '#111430';
     font-weight: 900;
-    font-size: 80px;
+    font-size: 5.9vw;
     line-height: 80px;
-    margin-top: 40px;
+    margin-top: 30px;
+}
+.nav-btn2{
+    width: 125px;
+    padding: 14px;
+    color: #fff;
+    border-radius: 20px 0px 20px 0px;
+    border: none;
+    background: linear-gradient(65deg, #1BD6BB, #08AEEA);
+}
+.header-bg{
+    background-image: url("../../../img/header-bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 792px -105px;
+    background-size: 1115px;
+    margin: 70px 0;
+}
+.navbar-toggler-icon{
+    background-image: none!important;
+    background-image: url("../../../img/nav-toggle-icon.png")!important;
 }

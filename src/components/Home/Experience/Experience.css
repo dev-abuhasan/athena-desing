@@ -1,36 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-.card1 img{
-    width: 35%;
-    margin: 0 auto;
-    padding-top: 35px;
+.exp-bg-img{
+    background-image: url("../../../img/exp-bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
 }
-.card1{
+.exp-card{
     text-align: center;
+    padding: 30px;
     border-radius: 70px 0px 70px 0px;
-    border: none;
     transition: .5s;
+}
+.exp-card img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.exp-card:hover{
+    text-align: center;
+    border: none;
+    box-shadow: 0 0 12px #b9adad;
     background-color: #FAFFFD;
 }
-.card1:hover{
-    transform: scale(1.1);
-    box-shadow: 5px 5px 20px #cbf6e4;
-    background-color: #fff;
+.exp-desc h5{
+    font-size: 18px;
+    font-weight: bold;
 }
-.card1 img:nth-child(1){
-    width: 25%;
-}
-.maine-title{
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    font-weight: 900;
-}
-.card-body{
-    padding: 30px;
-}
-.card-text{
-    color: gray;
-    font-size: 15px;
-    font-weight: 300;
-    padding-bottom: 15px;
+.exp-desc p{
+    font-size: 13px;
+    font-weight: 100;
 }

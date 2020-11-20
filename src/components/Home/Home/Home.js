@@ -11,14 +11,18 @@ const Home = () => {
     return (
         <div style={{ backgroundColor: '#FAFFFD' }}>
             <Header></Header>
-            <Experience></Experience>
+            <div className="experience-sec">
+                <Experience></Experience>
+            </div>
             <Project></Project>
             <Achievements></Achievements>
             <div className="container">
                 <Team></Team>
             </div>
             <Input></Input>
-            <Footer></Footer>
+            <div className="container">
+                <Footer></Footer>
+            </div>
         </div>
     );
 };

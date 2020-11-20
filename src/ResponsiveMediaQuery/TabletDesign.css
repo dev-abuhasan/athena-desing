@@ -1,0 +1,14 @@
+@media screen and (max-width: 770px) {
+    #App-bg {
+        background-position: -254px -311px;
+        background-size: 537px;
+        height: 63px;
+        width: 182px;
+    }
+    .header-bg {
+        margin: 0px!important;
+    }
+    .project-container {
+        margin: 10px 0!important;
+    }
+}
